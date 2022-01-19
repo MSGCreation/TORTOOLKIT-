@@ -1,0 +1,10 @@
+class Commands:
+    LEECH = "leech"
+    SETTINGS= "settings"
+    EXEC = "exec"
+    ABOUT = "about"
+    GETLOGS = "getlogs"
+    SERVER = "server"
+    START = "start"
+    SPEEDTEST = "speedtest"
+    CRLDATA = "cleardata"
