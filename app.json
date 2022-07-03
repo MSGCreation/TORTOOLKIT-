@@ -9,7 +9,7 @@
     "uploader",
     "rclone"
   ],
-  "success_url": "https://github.com/msgsubusurya/MSG",
+  "success_url": "https://github.com/MSGCreation/TORTOOLKIT-",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
