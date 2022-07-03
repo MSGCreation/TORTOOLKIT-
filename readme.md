@@ -1,10 +1,12 @@
+
+
 # TorToolkit Telegram
-So basically Tortoolkit is aimed to be the most versatile torrent leecher and youtube-dl bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
+So basically Tortoolkit is aimed to be the most versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
 The bot gets started with minimum variables and others can be set as and when needed using the /settings.
+## Use master branch if you encounter some issues and report the same.
+## Use beta branch if you want to try latest features.
 
-## Use [Alpha](https://github.com/KangersHub/TorToolkitX/tree/alpha) branch if you want to try latest features.
-
-## For any help join this:- [KangersHub](https://t.me/KangersHubChat)
+## For any help join this:- [MSG CREATION TAMIL](https://github.com/msgsubusurya)
 
 ## Whats new
 - MegaDL added
@@ -21,11 +23,11 @@ Table of Content
   - [VPS DEPLOYMENT USING DOCKER](#vps-deployment-docker)
   - [VPS DEPLOYMENT WITHOUT DOCKER](#vps-deployment-without-docker)
 
+<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 # Features
 Following are some awesome features offered by this bot:-
 - Using the best torrent client to deal with torrent : [qBittorrent](https://github.com/qbittorrent/qBittorrent)
-- Customised QBT engine with Custom Trackers
 - You can choose which files you want to download from the torrent.
 - A glorious settings menu from you can control the bot.
 - If the bot is in the group, the users have their own settings like:
@@ -38,19 +40,16 @@ Following are some awesome features offered by this bot:-
 - Aria2 for direct links download.
 - Upload to gdrive by using RCLONE.
   - You can load multiple drives in the conf and can switch on fly using the settings.
-- Sorted YTDLP download menu.
+- Sorted YTDL download menu.
 - Zip and upload also available.
 - Get the server status.
-- InstaDL support with Variables
+- InstaDL support
 - Browse the settings menu and try stuff. ;)
-- Fast as Fck any video Download Support Like twitter, Tiktok, Facebook With YTDLP engine.
-- uses Custom QBT trackers and Config File
-- lots Of fixes in Master Branch 🙂
 
 # Deployment
 
 ## ***Heroku***
-## For Heroku users New repo will come after Yash Khadse Is Free and Available .. (But This repo will work on heroku)
+## For Heroku users New repo will come after Yash Khadse Is Free and Availble .. (But This repo will work on heroku)
 [![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](heroku-deployment.md)
 
 ## ***Zeet***
@@ -258,19 +257,7 @@ Steps:-
 - `USER_CAP_ENABLE` : Work in progress
 - `USER_CAP_LIMIT` : Work in progress
 
-- `QBitTorrent Configurations`
-  - To modify QBT engine Preferences ... Please check `qBittorrent.conf` in root of the repo..
-  - To modify Trackers for QBT ... Please check `start.sh` file in root of the repo.. or [click here](https://github.com/KangersHub/TorToolkitX/blob/master/start.sh#L2) to see.
-
-- `Instagram Stuff`
-  - `INSTA_UNAME` it is for instagram login put your instagram username.
-  - `INSTA_PASS`  it is for instagram login put your instagram password.
-  - without credentials instagram wont work whether post is public or private.
-  - when passing passing instagram links to bot make sure it is like `https://www.instagram.com/p/CToApjNsHql/` or like `https://www.instagram.com/p/CToApjNsHql` dont pass any flags like `https://www.instagram.com/p/CToApjNsHql/?utm_medium=copy_link`....
-
-
-
-## **Rest Variables are not to be changed**
+## **Rest Variables are not to be changed** 
 
 ## Commands
 
@@ -294,9 +281,9 @@ Steps:-
      
 
 # Credits
-[Yash-DK](https://github.com/yash-dk) Owner of TorToolkit Repository
-
 [AmirulAndalib](https://github.com/AmirulAndalib) for modding
+
+[Yash-DK](https://github.com/yash-dk)
 
 [Lonami](https://github.com/LonamiWebs/Telethon/) for awesome Telethon
 
